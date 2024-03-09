@@ -3,7 +3,59 @@
   <head>
     <meta charset="UTF-8">
     <title>Exceptional Realty Group - Luxury Homes - About</title>
-    <!-- Don't forget to link your CSS file! -->
+    <style>
+      header h1 {
+        text-align: center;
+      }
+
+      nav {
+        text-align: center;
+      }
+
+      nav a {
+        padding: 10px;
+        background-color: grey;
+      }
+
+      figure img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      figure figcaption {
+        font-size: 12px;
+        text-align: center;
+      }
+
+      #featured-property {
+  text-align: center;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 10px auto;
+}
+
+.details-item {
+  float: left;
+}
+
+.details-item {
+  float: left;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.details-item {
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
+    </style>
   </head>
   <body>
     <header>
@@ -11,7 +63,7 @@
       <h1>Exceptional Realty Group</h1>
 
       <nav>
-        <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+        <link rel="stylesheet" href="./style.css"><a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
       </nav>
     </header>
 
@@ -26,7 +78,7 @@
     </section>
 
     <section id="details">
-      <div>
+      <div class="details-item">
         <h3>Contact</h3>
         <p>
           <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
@@ -35,7 +87,7 @@
         </p>
       </div>
       
-      <div>
+      <div class="details-item">
         <h3>Correspondence</h3>
         <p>
           Exceptional Realty<br>
@@ -44,7 +96,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="details-item">
         <h3>Links</h3>
         <p>
           <a href="#" target="_blank">Home Restoration</a><br>
@@ -53,7 +105,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="details-item">
         <h3>Follow</h3>
         <p>
           <a href="#" target="_blank">YouTube</a><br>
